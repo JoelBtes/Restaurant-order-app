@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Smythe';
+    font-style: normal;
+
+}
+
+
+
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.burger{
+    height: 400px;
+    width: px;
+    margin: 0;
+}
+
+
+
+h1, .welcome {
+    color: whitesmoke;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right: 0;
+    margin: auto;
+    
+    
+    
+    
+} 
+.welcome {
+  position: absolute;
+  margin: 50px;
+  left: 2px;
+  
+}
+
+
+.firstSection {
+display: flex;
+flex-direction: column;
+font-size: 25px;
+
+
+    
+}
+
+.menyOne, .menyTwo, .menyThree {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    border-bottom: 2px solid #D2D2D2;
+    font-size: 17px;
+
+   
+    
+    
+    
+        
+}
+.pizzaBild, .burgarBild, .ölBild {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 30px;
+    padding-top: 50px;
+
+}
+
+.p text, .textTwo {
+    font-weight: bold;
+}
+
+.knapp1, .knapp2, .knapp3 {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    margin-top: 70px;
+    border-radius: 50px;
+    background: white;
+    border: 2px solid #D2D2D2;
+    justify-content: center;
+    font-size: 37px;
+    color: #D2D2D2;
+    
+    
+}
+
+.knapp1:hover, .knapp2:hover, .knapp3:hover {
+    background: yellowgreen;
+}
+.knapp1:active, .knapp2:active, .knapp3:active {
+    background: green;
+}
+
+.completeBTN {
+width: 100%;
+border-radius: 5px;
+padding: 20px 0;
+background: #16DB99;
+color: white;
+border: none;
+margin-top: 60px;
+
+}
+
+.OrderMenu {
+    
+}
+
+.TP {
+    border-top: 2px solid black;
+    margin-top: 50px;
+}
+
+
+
+.h3Order {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.innerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+
+    
+}
+
+.menuTotalPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid gray;
+    font-weight: bold;
+    
+}
+
+.yourOrder {
+   display: flex;
+   justify-content: center;
+   
+}
+
+.completeBtn{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #16DB99;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    
+}
+
+.completeBtn:hover, .payBtn:hover{
+    background: whitesmoke;
+    color: #16DB99;
+    font-weight: bold;
+}
+
+.divBottom {
+    border-bottom: 50px solid white;
+}
+
+.OrderDetails{
+ position: fixed;
+width: 500px;
+height: 500.24px;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+margin: auto;
+display: flex;
+flex-direction: column;
+background: #ffffff;
+
+
+}
+
+input{
+    display: block;
+    width: 70%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+.payBtn{
+    display: flex;
+    width: 50%;
+    padding: 30px;
+    margin-left: 130px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    background: #16DB99;
+    border: none;
+    border-radius: 5px;
+}
+
+.detailsText{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+
+.thankYouMessage{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    background: #ECFDF5;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #065F46;
+    font-size: 30px;
+    
+}
+
